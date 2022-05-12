@@ -1,0 +1,117 @@
+h2 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.contenedor {
+    border: black 2px solid;
+    font-size: 15px;
+    color: white;
+    width: 300px;
+    height: 300px; 
+    position: relative;   
+    display: flex;
+}
+
+/* Ejercicio 1 */
+.unoRojo {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0%;
+}
+.unoAzul {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0%;
+    top: 100px;
+}
+.unoVerde {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0%;
+    top: 200px;
+}
+
+/* Ejercicio 2 */
+.dosRojo {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left: 200px;
+    top: 100px;
+}
+.dosAzul {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left: 100px;
+    top: 100px;
+}
+.dosVerde {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left: 0px;
+    top: 100px;
+}
+
+/* Ejercicio 3 */
+.contenedorTres {
+    display: flex;
+    justify-content: space-between;
+    border: black 2px solid;
+    font-size: 15px;
+    color: white;
+ 
+}
+.tresRojo {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tresAzul {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tresVerde {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
